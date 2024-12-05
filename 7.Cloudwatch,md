@@ -1,1 +1,27 @@
+🚀 Today's Learning Highlights on AWS CloudWatch!
+
+I had an exciting hands-on session with AWS CloudWatch today. Here's what I accomplished:
+
+1️⃣ Configured Default CPU Utilization Metric
+Set up an EC2 instance and enabled the default CPU Utilization metric in AWS CloudWatch to monitor the instance's performance in real time. 📊
+
+*Created a EC2 instance and got access to it:
+
+
+2️⃣ Spiked CPU Usage for Testing
+Used tools like stress to simulate high CPU usage on the EC2 instance. This helped me observe how CloudWatch captures and displays the metric variations. 📈
+
+Screenshot: Spiked CPU Usage in CloudWatch Metrics
+
+3️⃣ Set Up an Alarm
+Configured a CloudWatch Alarm to monitor the CPU utilization. The alarm was set to trigger if the usage exceeded 50%.
+Integrated the alarm with Amazon SNS (Simple Notification Service) to send an email notification in case the threshold was breached. 📬
+Screenshot: CloudWatch Alarm Configuration
+
+Screenshot: Email Notification for Alarm Trigger
+
+Key Takeaways:
+Learned how to use CloudWatch to monitor and analyze system metrics effectively.
+Got hands-on experience with configuring alarms and integrating them with SNS for real-time alerts.
+Understood the importance of proactive monitoring to ensure system reliability and performance.
 
